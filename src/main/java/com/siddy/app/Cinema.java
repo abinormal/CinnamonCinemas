@@ -3,6 +3,10 @@ package com.siddy.app;
 public class Cinema {
 
     public int allocateSeats(int seats){
-        return 0;
+        // Check seats allowed are only 1-3
+        if (seats < 1 || seats >3){
+            return 0;
+        }
+        return 1;
     }
 }
